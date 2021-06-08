@@ -47,11 +47,7 @@ Depois de instalado o ruby, instale as dependências ruby do projeto:
 cd nome-do-projeto # navegue para a pasta que você clonou anteriormente
 bundle install
 ```
-No MacOS instalar o Webrick antes de rodar o servidor: 
 
-```
-bundle add webrick
-```
 
 ### Rodando o servidor
 
@@ -59,6 +55,11 @@ Se tudo tiver corrido bem, agora é só rodar o servidor:
 
 ```sh
 bundle exec jekyll serve
+```
+No MacOS instalar o Webrick antes de rodar o servidor: 
+
+```
+bundle add webrick
 ```
 
 Abra o navegador e vá até o http://localhost:4000/site-pessoal/ para ver ao vivo!
