@@ -47,6 +47,11 @@ Depois de instalado o ruby, instale as dependências ruby do projeto:
 cd nome-do-projeto # navegue para a pasta que você clonou anteriormente
 bundle install
 ```
+No MacOS instalar o Webrick antes de rodar o servidor: 
+
+```
+bundle add webrick
+```
 
 ### Rodando o servidor
 
