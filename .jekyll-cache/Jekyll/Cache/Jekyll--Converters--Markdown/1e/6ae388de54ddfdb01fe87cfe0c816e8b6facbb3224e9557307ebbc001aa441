@@ -1,0 +1,19 @@
+I"g<p>Você encontrará esse post no seu diretório <code class="language-plaintext highlighter-rouge">_posts</code>. Edite-o e re-builde o site para ver suas mudanças. Você pode rebuildar o site de várias maneiras diferentes, mas a mais comum é rodar <code class="language-plaintext highlighter-rouge">jekyll serve</code>, que inicia um servidor web e auto-regenera o seu site quando um arquivo é atualizado.</p>
+
+<p>O Jekyll requer que os arquivos de blog post sejam nomeados de acordo com o seguinte formato::</p>
+
+<p><code class="language-plaintext highlighter-rouge">ANO-MES-DIA-titulo.md</code></p>
+
+<p>Onde <code class="language-plaintext highlighter-rouge">ANO</code> é um número de quatro dígitos, <code class="language-plaintext highlighter-rouge">MES</code> and <code class="language-plaintext highlighter-rouge">DIA</code> são ambos números de dois dígitos, e <code class="language-plaintext highlighter-rouge">.md</code> é a extensão do arquivo (pode também ser HTML). Depois disso, inclua as configurações de cabeçalho. Dê uma olhada em como fazer neste arquivo.</p>
+
+<p>Jekyll também oferece um excelente suporte a trechos de código:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Oi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; imprime 'Oi, Tom' ao STDOUT.</span></code></pre></figure>
+
+<p>Dê uma olhada na <a href="https://jekyllrb.com/docs/home">documentação do Jekyll</a> para mais informações sobre como obter o melhor do Jekyll. Documente os bugs e pedidos de features no <a href="https://github.com/jekyll/jekyll">repositório do Jekyll no GitHub</a>. Se você tiver dúvidas, você pode perguntar no <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+:ET
